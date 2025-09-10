@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+:root {
+	--green: var(hsl(75, 94%, 57%));
+	--white: var(hsl(0, 0%, 100%));
+	--gray-700: var(hsl(0, 0%, 20%));
+	--gray-800: var(hsl(0, 0%, 12%));
+	--gray-900: var(hsl(0, 0%, 8%));
+
+	--font-size: var(14px);
+
+	--font-family: var('Inter', sans-serif);
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
